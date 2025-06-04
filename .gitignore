@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+yarn.lock
+package-lock.json
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+# Metro
+.metro-health-check*
+# Native build artifacts
+android/build/
+android/app/build/
+android/app/.cxx/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/.settings/
+ios/build/
+ios/Pods/
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+# Generated files
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+# macOS
+.DS_Store
+# Environment files
+.env
+.env.*.local
+# TypeScript
+*.tsbuildinfo
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
